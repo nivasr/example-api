@@ -7,8 +7,7 @@
         `git clone https://github.com/nivasr/example-api`  
 OR
     * Download
-        Use the download option at the top of the github page
-        Unzip to a folder.  
+        Use the download option at the top of the github page under `Clone or Download -> Download Zip` and Unzip to a folder.  
 
     In both options a folder called `api` would be created.
 
