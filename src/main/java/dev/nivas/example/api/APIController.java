@@ -15,9 +15,12 @@ public class APIController {
 	
 	@GetMapping("/ask")
 	public QuestionAnswerData ask(@RequestParam (value="question", defaultValue="help") String question) {
+		
 		QuestionAnswerData questionAnswerData = new QuestionAnswerData();
 		questionAnswerData.setQuestion(question);
+		
 		questionAnswerData = answerService.getAnswer(questionAnswerData);
+		
 		return questionAnswerData;
 	}
 }
